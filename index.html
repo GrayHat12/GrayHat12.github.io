@@ -663,23 +663,23 @@
    		<div class="col-twelve">
 
             <!-- form -->
-            <form name="contactForm" id="contactForm" method="post" action="">
+            <form name="contactForm" id="contactForm" method="post" action="https://docs.google.com/forms/d/e/1FAIpQLSeiRiMa8t_aK-dXavmFrQ2NBZ1or-j-IzBzXi4ja41XJ6-nVg/formResponse" target="hidden_iframe" onsubmit="submitted=true;">
       			<fieldset>
 
                   <div class="form-field">
- 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+ 						   <input name="entry.1909589477" type="text" id="entry.1909589477" placeholder="Name" value="" minlength="2" required="">
                   </div>
                   <div class="form-field">
-	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+	      			   <input name="entry.1877295955" type="email" id="entry.1877295955" placeholder="Email" value="" required="">
 	               </div>
                   <div class="form-field">
-	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+	     				   <input name="entry.89873864" type="text" id="entry.89873864" placeholder="Subject" value="">
 	               </div>                       
                   <div class="form-field">
-	                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+	                 	<textarea name="entry.1532171854" id="entry.1532171854" placeholder="message" rows="10" cols="50" required=""></textarea>
 	               </div>                      
                  <div class="form-field">
-                     <button class="submitform">Submit</button>
+                     <button type="submit" class="submitform">Submit</button>
                      <div id="submit-loader">
                         <div class="text-loader">Sending...</div>                             
        				      <div class="s-loader">
@@ -691,7 +691,8 @@
                   </div>
 
       			</fieldset>
-      		</form> <!-- Form End -->
+			  </form> <!-- Form End -->
+			  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 
             <!-- contact-warning -->
             <div id="message-warning">            	

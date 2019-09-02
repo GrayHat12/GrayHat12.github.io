@@ -223,7 +223,10 @@
 		submitHandler: function(form) {
 
 			var sLoader = $('#submit-loader');
-
+			/*sLoader.fadeOut(); 
+	               $('#message-warning').hide();
+	               $('#contactForm').fadeOut();
+	               $('#message-success').fadeIn();*/
 			$.ajax({      	
 
 		      type: "POST",
@@ -259,7 +262,7 @@
 
 		      }
 
-	      });     		
+	      });    		
   		}
 
 	});
