@@ -227,7 +227,7 @@
 	               $('#message-warning').hide();
 	               $('#contactForm').fadeOut();
 	               $('#message-success').fadeIn();
-			/*$.ajax({      	
+			$.ajax({      	
 
 		      type: "POST",
 		      url: "https://docs.google.com/forms/d/e/1FAIpQLSeiRiMa8t_aK-dXavmFrQ2NBZ1or-j-IzBzXi4ja41XJ6-nVg/formResponse",
@@ -262,7 +262,7 @@
 
 		      }
 
-	      });    	*/	
+	      });
   		}
 
 	});
