@@ -666,7 +666,7 @@
    		<div class="col-twelve">
 
             <!-- form -->
-            <form name="contactForm" id="contactForm" method="post" action="https://docs.google.com/forms/d/e/1FAIpQLSeiRiMa8t_aK-dXavmFrQ2NBZ1or-j-IzBzXi4ja41XJ6-nVg/formResponse" target="hidden_iframe" onsubmit="submitted=true;">
+            <form name="contactForm" id="contactForm" method="post" action="https://docs.google.com/forms/d/e/1FAIpQLSeiRiMa8t_aK-dXavmFrQ2NBZ1or-j-IzBzXi4ja41XJ6-nVg/formResponse" target="invisible" onsubmit="submitted=true;">
       			<fieldset>
 
                   <div class="form-field">
@@ -695,11 +695,10 @@
 
       			</fieldset>
 			  </form> <!-- Form End -->
-			  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-
+			  <iframe name="invisible" id="invisible" style="display:none;"></iframe>
             <!-- contact-warning -->
             <div id="message-warning">            	
-            </div>            
+            </div>
             <!-- contact-success -->
       		<div id="message-success">
                <i class="fa fa-check"></i>Your message was sent, thank you!<br>
