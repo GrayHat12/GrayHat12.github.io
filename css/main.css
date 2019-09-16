@@ -1102,6 +1102,15 @@ header .top-bar {
 	left: 90px;
 	top: 0;
 }
+header .top-bar-right {
+	display: block;
+	background: transparent;
+	min-width: 220px;
+	min-height: 66px;
+	position: absolute;
+	right: 90px;
+	top: 0;
+}
 header .logo {
 	float: left;
 	margin-left: 20px;
@@ -1283,6 +1292,27 @@ header .logo a {
 @media only screen and (max-width:400px) {
 	header .top-bar {
 		left: 25px;
+	}
+}
+
+@media only screen and (max-width:1024px) {
+	header .top-bar-right {
+		right: 60px;
+	}
+}
+@media only screen and (max-width:768px) {
+	header .top-bar-right {
+		right: 50px;
+	}
+}
+@media only screen and (max-width:600px) {
+	header .top-bar-right {
+		right: 35px;
+	}
+}
+@media only screen and (max-width:400px) {
+	header .top-barright {
+		right: 25px;
 	}
 }
 
