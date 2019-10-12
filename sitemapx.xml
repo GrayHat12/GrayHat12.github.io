@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://grayhat12.github.io/</loc>
+    <image:image>
+      <image:loc>https://grayhat12.github.io/favicon_io/apple-touch-icon.png</image:loc>
+      <image:caption>Gray Hat</image:caption>
+      <image:title>Gray Hat Web icon</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://grayhat12.github.io/images/profile.png</image:loc>
+      <image:caption>Gray Hat - Rahul Singh</image:caption>
+      <image:title>Gray Hat</image:title>
+      <image:geo_location>India</image:geo_location>	
+    </image:image>
+    <image:image>
+      <image:loc>https://grayhat12.github.io/images/cover.png</image:loc>
+      <image:caption>Gray Hat Cover</image:caption>
+      <image:title>Logo - GrayHat</image:title>
+    </image:image>
+  </url> 
+</urlset> 
