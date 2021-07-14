@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: grayhat12.github.io
+Token: 4075f5bc805b652762e52278bf7078ef686724d075a74a6693db049c34ea9f00
